@@ -73,14 +73,14 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_dlB80BHoEeaXZPEtXAewyg" name="DataView">
     <generalization xmi:id="_iAZ78BHoEeaXZPEtXAewyg" general="_c87pwBHiEeaE98oD4DXD4A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Xxs10BH0Eea3FNIYauZzaw" name="mainGUIsToViews" memberEnd="_Xxs10RH0Eea3FNIYauZzaw _XxuD8RH0Eea3FNIYauZzaw" navigableOwnedEnd="_XxuD8RH0Eea3FNIYauZzaw">
-    <ownedEnd xmi:id="_Xxs10RH0Eea3FNIYauZzaw" name="mainGUIs" type="_YswOABHiEeaE98oD4DXD4A" aggregation="shared" association="_Xxs10BH0Eea3FNIYauZzaw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xxtc4BH0Eea3FNIYauZzaw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XxuD8BH0Eea3FNIYauZzaw" value="*"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eeD78BH7EeamfNnKvXM5Yg" name="mainGUIsToSlideWidgets" memberEnd="_eeFxIBH7EeamfNnKvXM5Yg _eegA0RH7EeamfNnKvXM5Yg" navigableOwnedEnd="_eegA0RH7EeamfNnKvXM5Yg">
+    <ownedEnd xmi:id="_eeFxIBH7EeamfNnKvXM5Yg" name="mainGUIs" type="_YswOABHiEeaE98oD4DXD4A" aggregation="shared" association="_eeD78BH7EeamfNnKvXM5Yg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eefZwBH7EeamfNnKvXM5Yg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eegA0BH7EeamfNnKvXM5Yg" value="*"/>
     </ownedEnd>
-    <ownedEnd xmi:id="_XxuD8RH0Eea3FNIYauZzaw" name="views" type="_c87pwBHiEeaE98oD4DXD4A" association="_Xxs10BH0Eea3FNIYauZzaw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XxurABH0Eea3FNIYauZzaw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XxurARH0Eea3FNIYauZzaw" value="*"/>
+    <ownedEnd xmi:id="_eegA0RH7EeamfNnKvXM5Yg" name="slideWidgets" type="_c87pwBHiEeaE98oD4DXD4A" association="_eeD78BH7EeamfNnKvXM5Yg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ee2mIBH7EeamfNnKvXM5Yg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ee2mIRH7EeamfNnKvXM5Yg" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
