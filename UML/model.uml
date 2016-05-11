@@ -195,7 +195,7 @@ Constants are missing</body>
   <packagedElement xmi:type="uml:Association" xmi:id="_eeD78BH7EeamfNnKvXM5Yg" name="mainGUIsToSlideWidgets" memberEnd="_eeFxIBH7EeamfNnKvXM5Yg _eegA0RH7EeamfNnKvXM5Yg" navigableOwnedEnd="_eegA0RH7EeamfNnKvXM5Yg">
     <ownedEnd xmi:id="_eeFxIBH7EeamfNnKvXM5Yg" name="mainGUIs" type="_YswOABHiEeaE98oD4DXD4A" aggregation="shared" association="_eeD78BH7EeamfNnKvXM5Yg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eefZwBH7EeamfNnKvXM5Yg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eegA0BH7EeamfNnKvXM5Yg" value="*"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eegA0BH7EeamfNnKvXM5Yg" value="1"/>
     </ownedEnd>
     <ownedEnd xmi:id="_eegA0RH7EeamfNnKvXM5Yg" name="slideWidgets" type="_c87pwBHiEeaE98oD4DXD4A" association="_eeD78BH7EeamfNnKvXM5Yg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ee2mIBH7EeamfNnKvXM5Yg"/>
