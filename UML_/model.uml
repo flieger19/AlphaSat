@@ -12,4 +12,17 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_uKT9kBj6EeamFdNJHbt0ZA" name="SlideWidget"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_uR060Bj6EeamFdNJHbt0ZA" name="MainGUI"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KrAAwBkEEeamFdNJHbt0ZA" name="TrajectoryElementPerigy"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L-FZQBkEEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfo"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MHqzEBkEEeamFdNJHbt0ZA" name="TrajectoryElementApogy"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="MainUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="TrajectoryElementEditorUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uk97cBkJEeamFdNJHbt0ZA" name="DataViewUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yPfFYBkJEeamFdNJHbt0ZA" name="TrajectoryViewUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yXULsBkJEeamFdNJHbt0ZA" name="ConsoleViewUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ycyhkBkJEeamFdNJHbt0ZA" name="PolarViewUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6yjSoBkJEeamFdNJHbt0ZA" name="TrajectoryElementPerigyUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6-5FgBkJEeamFdNJHbt0ZA" name="TrajectoryElementApogyUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_7FbyYBkJEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfoUI"/>
 </uml:Model>
