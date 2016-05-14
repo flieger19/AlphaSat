@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="RootElement">
   <packagedElement xmi:type="uml:Class" xmi:id="_QZuOQBgsEean0ssv5ks9kg" name="Database"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Q4w6sBgsEean0ssv5ks9kg" name="Satellite"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_RVy08BgsEean0ssv5ks9kg" name="Settings"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_dF4MMBj6EeamFdNJHbt0ZA" name="OrbitalMechanics"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hipScBj6EeamFdNJHbt0ZA" name="CoordinateTransformation"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_touTcBj6EeamFdNJHbt0ZA" name="ConsoleView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_twqugBj6EeamFdNJHbt0ZA" name="PolarView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_t6pJ4Bj6EeamFdNJHbt0ZA" name="DataView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_uAAyEBj6EeamFdNJHbt0ZA" name="TrajectoryElementEditor"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_uKT9kBj6EeamFdNJHbt0ZA" name="SlideWidget"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_uR060Bj6EeamFdNJHbt0ZA" name="MainGUI"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_KrAAwBkEEeamFdNJHbt0ZA" name="TrajectoryElementPerigy"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_L-FZQBkEEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfo"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_MHqzEBkEEeamFdNJHbt0ZA" name="TrajectoryElementApogy"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_touTcBj6EeamFdNJHbt0ZA" name="ConsoleView">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4q7zEBn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Fz47cBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_yXULsBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_twqugBj6EeamFdNJHbt0ZA" name="PolarView">
+    <generalization xmi:type="uml:Generalization" xmi:id="_np8XQBn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-mGfEBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_ycyhkBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t6pJ4Bj6EeamFdNJHbt0ZA" name="DataView">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wM7sABn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0wlLcBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_uk97cBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uAAyEBj6EeamFdNJHbt0ZA" name="TrajectoryElementEditor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pD4TwBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_m4jCUBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uKT9kBj6EeamFdNJHbt0ZA" name="SlideWidget">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZeaawBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_eMhGUBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uR060Bj6EeamFdNJHbt0ZA" name="MainGUI">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_e8vBcBn9EeaGaumT9ymrPQ" name="UI" visibility="private" type="_F8EaMBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
+    <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OL4hIBoCEeaGaumT9ymrPQ" name="Attribute1" visibility="private" type="_yPfFYBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KrAAwBkEEeamFdNJHbt0ZA" name="TrajectoryElementPerigy">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3W3YkBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YYv9wBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_6yjSoBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L-FZQBkEEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfo">
+    <generalization xmi:type="uml:Generalization" xmi:id="_55cqEBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pnAZgBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_7FbyYBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MHqzEBkEEeamFdNJHbt0ZA" name="TrajectoryElementApogy">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4U8xcBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eZy6MBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_6-5FgBkJEeamFdNJHbt0ZA"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="MainUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="TrajectoryElementEditorUI"/>
@@ -25,4 +52,68 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_6yjSoBkJEeamFdNJHbt0ZA" name="TrajectoryElementPerigyUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_6-5FgBkJEeamFdNJHbt0ZA" name="TrajectoryElementApogyUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_7FbyYBkJEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfoUI"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hIFCMBn-EeaGaumT9ymrPQ" memberEnd="_hIFpQhn-EeaGaumT9ymrPQ _hIGQUBn-EeaGaumT9ymrPQ" navigableOwnedEnd="_hIGQUBn-EeaGaumT9ymrPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hIFpQBn-EeaGaumT9ymrPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIFpQRn-EeaGaumT9ymrPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hIGQUBn-EeaGaumT9ymrPQ" name="slidewidget" type="_uKT9kBj6EeamFdNJHbt0ZA" aggregation="shared" association="_hIFCMBn-EeaGaumT9ymrPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hIFpQhn-EeaGaumT9ymrPQ" name="maingui" type="_uR060Bj6EeamFdNJHbt0ZA" association="_hIFCMBn-EeaGaumT9ymrPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oeRMoBn-EeaGaumT9ymrPQ" memberEnd="_oeSawRn-EeaGaumT9ymrPQ _oeTo4Bn-EeaGaumT9ymrPQ" navigableOwnedEnd="_oeTo4Bn-EeaGaumT9ymrPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oeRzsBn-EeaGaumT9ymrPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oeSawBn-EeaGaumT9ymrPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oeTo4Bn-EeaGaumT9ymrPQ" name="trajectoryelementeditor" type="_uAAyEBj6EeamFdNJHbt0ZA" aggregation="shared" association="_oeRMoBn-EeaGaumT9ymrPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oeSawRn-EeaGaumT9ymrPQ" name="maingui" type="_uR060Bj6EeamFdNJHbt0ZA" association="_oeRMoBn-EeaGaumT9ymrPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_CIM0MBn_EeaGaumT9ymrPQ" client="_F8EaMBkJEeamFdNJHbt0ZA" supplier="_uR060Bj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_FVPX8Bn_EeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_nBYtABoAEeaGaumT9ymrPQ" client="_eMhGUBkJEeamFdNJHbt0ZA" supplier="_uKT9kBj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_opsuoBoAEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_rIRC0BoAEeaGaumT9ymrPQ" client="_m4jCUBkJEeamFdNJHbt0ZA" supplier="_uAAyEBj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_snh2IBoAEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_xbZ00BoAEeaGaumT9ymrPQ" client="_uk97cBkJEeamFdNJHbt0ZA" supplier="_t6pJ4Bj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_0FcZMBoAEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_4Ks-YBoAEeaGaumT9ymrPQ" client="_ycyhkBkJEeamFdNJHbt0ZA" supplier="_twqugBj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_6DAj0BoAEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_D2xj8BoBEeaGaumT9ymrPQ" client="_yXULsBkJEeamFdNJHbt0ZA" supplier="_touTcBj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_FJkBgBoBEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_GwhYQBoBEeaGaumT9ymrPQ" client="_yPfFYBkJEeamFdNJHbt0ZA" supplier="_9cV9MBj6EeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_IAmgEBoBEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_KSylIBoBEeaGaumT9ymrPQ" client="_6yjSoBkJEeamFdNJHbt0ZA" supplier="_KrAAwBkEEeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_LxKnoBoBEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_PaoBoBoBEeaGaumT9ymrPQ" client="_6-5FgBkJEeamFdNJHbt0ZA" supplier="_MHqzEBkEEeamFdNJHbt0ZA">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_RSF5kBoBEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_UJhZsBoBEeaGaumT9ymrPQ" client="_7FbyYBkJEeamFdNJHbt0ZA" supplier="_-0bykBgrEeaxRL7oBSCMLg">
+    <mapping xmi:type="uml:OpaqueExpression" xmi:id="_XW6iwBoBEeaGaumT9ymrPQ" body="">
+      <language>C++</language>
+    </mapping>
+  </packagedElement>
 </uml:Model>
