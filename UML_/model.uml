@@ -25,6 +25,18 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uR060Bj6EeamFdNJHbt0ZA" name="MainGUI">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_e8vBcBn9EeaGaumT9ymrPQ" name="UI" visibility="private" type="_F8EaMBkJEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dq6R8BplEea-oJLJtuZAWw" name="m_dataView" visibility="private" type="_t6pJ4Bj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3RUrcBplEea-oJLJtuZAWw" name="m_polarView" visibility="private" type="_twqugBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DCFjwBpmEea-oJLJtuZAWw" name="m_consoleView" visibility="private" type="_touTcBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bHD_sBpmEea-oJLJtuZAWw" name="m_raanEditor" visibility="private" type="_uAAyEBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jRRoEBpmEea-oJLJtuZAWw" name="m_inclinationEditor" visibility="private" type="_uAAyEBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sDiH4BpmEea-oJLJtuZAWw" name="m_perigyEditor" visibility="private" type="_KrAAwBkEEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4WH64BpmEea-oJLJtuZAWw" name="m_apogyEditor" visibility="private" type="_MHqzEBkEEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AmgcsBpnEea-oJLJtuZAWw" name="m_orbitInfoEditor" visibility="private" type="_L-FZQBkEEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XcbrkBpnEea-oJLJtuZAWw" name="m_satellite" visibility="private" type="_Q4w6sBgsEean0ssv5ks9kg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ioR48BpnEea-oJLJtuZAWw" name="m_orbitalMechanik" visibility="private" type="_dF4MMBj6EeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rMYA8BpnEea-oJLJtuZAWw" name="m_database" visibility="private" type="_QZuOQBgsEean0ssv5ks9kg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zkIWEBpnEea-oJLJtuZAWw" name="m_settings" visibility="private" type="_RVy08BgsEean0ssv5ks9kg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
@@ -116,4 +128,6 @@
       <language>C++</language>
     </mapping>
   </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_9F9fYBpsEeayXOBZmCNu1Q" name="Marble::GeoDataLineString"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Ep1ggBptEeayXOBZmCNu1Q" name="Marble::GeoDataCoordinates"/>
 </uml:Model>
