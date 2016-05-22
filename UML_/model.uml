@@ -201,4 +201,15 @@
   <packagedElement xmi:type="uml:DataType" xmi:id="_9F9fYBpsEeayXOBZmCNu1Q" name="Marble::GeoDataLineString"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_Ep1ggBptEeayXOBZmCNu1Q" name="Marble::GeoDataCoordinates"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_-TO7ACAjEea6BqLVBXzumg" name="Marble::GeoDataStyle"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_pDB5gCAzEeadi61CSIyp3g" name="QAction"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_qTPkMCAzEeadi61CSIyp3g" name="QWidget"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_01nWwCAzEeadi61CSIyp3g" name="QLabel"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_0-_8QCAzEeadi61CSIyp3g" name="QMenuBar"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_1OE6ECAzEeadi61CSIyp3g" name="Marble::MarbleWidget"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_B3cOUCA0Eeadi61CSIyp3g" name="QStatusBar"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_CWQRQCA0Eeadi61CSIyp3g" name="QPushButton"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ChDzECA0Eeadi61CSIyp3g" name="QToolBar"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_VpxJUCA0Eeadi61CSIyp3g" name="QWasWeisIch"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Vxe64CA0Eeadi61CSIyp3g" name="QLineEdit"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_WFKE0CA0Eeadi61CSIyp3g" name="QListWidget"/>
 </uml:Model>
