@@ -46,6 +46,19 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_KTergB_9EeaUcJNs66L13w" name="mouseMoveEvent" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OJ9N0B_9EeaUcJNs66L13w" name="mouseReleaseEvent" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_RxLMIB_9EeaUcJNs66L13w" name="mousePressEvent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZmSxcCABEeaUcJNs66L13w" name="on_actionAddNewSatelite_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cx-DQCABEeaUcJNs66L13w" name="on_actionOpenSatelite_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fYqYsCABEeaUcJNs66L13w" name="on_actionSaveSatelite_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_h7_RECABEeaUcJNs66L13w" name="on_actionUsedDocuments_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_k_uu4CABEeaUcJNs66L13w" name="on_actionImportSatelite_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_o84g8CABEeaUcJNs66L13w" name="on_actionExportSatelite_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vd-PYCABEeaUcJNs66L13w" name="on_actionUndo_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xhu24CABEeaUcJNs66L13w" name="on_actionRedo_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zt8PwCABEeaUcJNs66L13w" name="on_actionCut_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2P7rYCABEeaUcJNs66L13w" name="on_actionCopy_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4gQIMCABEeaUcJNs66L13w" name="on_actionPast_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6tmJgCABEeaUcJNs66L13w" name="on_actionSelectAll_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9UkLwCABEeaUcJNs66L13w" name="on_actionElse_triggered" visibility="private"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
