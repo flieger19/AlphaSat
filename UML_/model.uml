@@ -73,6 +73,8 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ktSGcCAhEea6BqLVBXzumg" name="on_actionForwardAll_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_lL8_cCAhEea6BqLVBXzumg" name="on_actionSearchHelp_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_l99EICAhEea6BqLVBXzumg" name="on_actionAlphaSatHelp_triggered" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sqqh0CAjEea6BqLVBXzumg" name="setLineStyle" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s6tI8CAjEea6BqLVBXzumg" name="Operation2"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
@@ -166,4 +168,5 @@
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_9F9fYBpsEeayXOBZmCNu1Q" name="Marble::GeoDataLineString"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_Ep1ggBptEeayXOBZmCNu1Q" name="Marble::GeoDataCoordinates"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_-TO7ACAjEea6BqLVBXzumg" name="Marble::GeoDataStyle"/>
 </uml:Model>
