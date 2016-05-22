@@ -153,6 +153,12 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_-PQtECA7EeaWIYyxtp3KNQ" name="actionForwardAll" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ezlT4CA8EeaWIYyxtp3KNQ" name="actionSearchHelp" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fNiE8CA8EeaWIYyxtp3KNQ" name="actionAlphaSatHelp" type="_pDB5gCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UwdMoCA9EeaWIYyxtp3KNQ" name="centralWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Vxw4oCA9EeaWIYyxtp3KNQ" name="marbleMap" type="_1OE6ECAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V0T2UCA9EeaWIYyxtp3KNQ" name="coordinates" type="_01nWwCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V1pTECA9EeaWIYyxtp3KNQ" name="menuBar" type="_0-_8QCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V4Dt4CA9EeaWIYyxtp3KNQ" name="mainToolBar" type="_ChDzECA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V5bm4CA9EeaWIYyxtp3KNQ" name="statusBar" type="_B3cOUCA0Eeadi61CSIyp3g"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="TrajectoryElementEditorUI"/>
