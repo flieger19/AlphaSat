@@ -37,6 +37,21 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ioR48BpnEea-oJLJtuZAWw" name="m_orbitalMechanik" visibility="private" type="_dF4MMBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rMYA8BpnEea-oJLJtuZAWw" name="m_database" visibility="private" type="_QZuOQBgsEean0ssv5ks9kg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zkIWEBpnEea-oJLJtuZAWw" name="m_settings" visibility="private" type="_RVy08BgsEean0ssv5ks9kg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sWQtMCAlEea6BqLVBXzumg" name="widthFullHD" visibility="private" isStatic="true">
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2Kx7QCAlEea6BqLVBXzumg" name="widthFullHD" value="1920.0"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5l-20CAlEea6BqLVBXzumg" name="zoomFullHD" visibility="private" isStatic="true">
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_9muIYCAlEea6BqLVBXzumg" name="zoomFullHD" value="1234.0"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkgICAmEea6BqLVBXzumg" name="zoomDerivativ" visibility="private" isStatic="true">
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_e2gHACAmEea6BqLVBXzumg" name="zoomDerivativ" value="0.022608695652173914"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ix1UICAmEea6BqLVBXzumg" name="gainFullHD" visibility="private" isStatic="true">
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_mmZK4CAmEea6BqLVBXzumg" name="gainFullHD" value="5.335"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p7VtcCAmEea6BqLVBXzumg" name="screenDerivativ" visibility="private">
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_t2AMMCAmEea6BqLVBXzumg" name="screenDerivativ" value="0.1078125"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_e5wocB_8EeaUcJNs66L13w" name="startCalculationOfTrack" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_xDDJEB_8EeaUcJNs66L13w" name="appendCoordinates" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_1wXMwB_8EeaUcJNs66L13w" name="showRecievedTrack" visibility="private"/>
@@ -73,8 +88,25 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ktSGcCAhEea6BqLVBXzumg" name="on_actionForwardAll_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_lL8_cCAhEea6BqLVBXzumg" name="on_actionSearchHelp_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_l99EICAhEea6BqLVBXzumg" name="on_actionAlphaSatHelp_triggered" visibility="private"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_sqqh0CAjEea6BqLVBXzumg" name="setLineStyle" visibility="public"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_s6tI8CAjEea6BqLVBXzumg" name="Operation2"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sqqh0CAjEea6BqLVBXzumg" name="setLineStyle" visibility="private">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JtU_wCAkEea6BqLVBXzumg" name="style" visibility="private" type="_-TO7ACAjEea6BqLVBXzumg">
+        <defaultValue xmi:type="uml:Expression" xmi:id="_Fr31ICAnEea6BqLVBXzumg" name="style" visibility="private" type="_-TO7ACAjEea6BqLVBXzumg"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s6tI8CAjEea6BqLVBXzumg" name="linearPoint" visibility="private">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lURtoCAkEea6BqLVBXzumg" name="m" visibility="private">
+        <defaultValue xmi:type="uml:LiteralReal" xmi:id="_lURtoSAkEea6BqLVBXzumg" name="m"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rpj0sCAkEea6BqLVBXzumg" name="x" visibility="private">
+        <defaultValue xmi:type="uml:LiteralReal" xmi:id="_rpj0sSAkEea6BqLVBXzumg" name="x"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7CMgCAkEea6BqLVBXzumg" name="x0" visibility="private">
+        <defaultValue xmi:type="uml:LiteralReal" xmi:id="_u7CMgSAkEea6BqLVBXzumg" name="x0"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_81JW8CAkEea6BqLVBXzumg" name="y0" visibility="private">
+        <defaultValue xmi:type="uml:LiteralReal" xmi:id="_81JW8SAkEea6BqLVBXzumg" name="y0"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
