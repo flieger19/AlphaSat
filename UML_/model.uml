@@ -37,6 +37,15 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ioR48BpnEea-oJLJtuZAWw" name="m_orbitalMechanik" visibility="private" type="_dF4MMBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rMYA8BpnEea-oJLJtuZAWw" name="m_database" visibility="private" type="_QZuOQBgsEean0ssv5ks9kg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zkIWEBpnEea-oJLJtuZAWw" name="m_settings" visibility="private" type="_RVy08BgsEean0ssv5ks9kg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e5wocB_8EeaUcJNs66L13w" name="startCalculationOfTrack" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xDDJEB_8EeaUcJNs66L13w" name="appendCoordinates" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1wXMwB_8EeaUcJNs66L13w" name="showRecievedTrack" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8rYeIB_8EeaUcJNs66L13w" name="editSatellite" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EJLFYB_9EeaUcJNs66L13w" name="mouseMoveGeoPosition" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HH78kB_9EeaUcJNs66L13w" name="zoomChanged" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KTergB_9EeaUcJNs66L13w" name="mouseMoveEvent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OJ9N0B_9EeaUcJNs66L13w" name="mouseReleaseEvent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RxLMIB_9EeaUcJNs66L13w" name="mousePressEvent" visibility="private"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
