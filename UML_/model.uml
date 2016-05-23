@@ -21,6 +21,7 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:Class" xmi:id="_t6pJ4Bj6EeamFdNJHbt0ZA" name="DataView">
     <generalization xmi:type="uml:Generalization" xmi:id="_wM7sABn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0wlLcBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_uk97cBkJEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HjOf0CENEea0E80DL0Xggg" name="m_satellite" visibility="private" type="_Q4w6sBgsEean0ssv5ks9kg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uAAyEBj6EeamFdNJHbt0ZA" name="TrajectoryElementEditor">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_pD4TwBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_m4jCUBkJEeamFdNJHbt0ZA"/>
@@ -138,7 +139,7 @@ Die werden auch in den anderen Controlern gebraucht
     <generalization xmi:type="uml:Generalization" xmi:id="_4U8xcBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_eZy6MBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_6-5FgBkJEeamFdNJHbt0ZA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="MainUI">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="Ui_Main">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_66TjcCA7EeaWIYyxtp3KNQ" name="actionAddNewSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9NUH4CA7EeaWIYyxtp3KNQ" name="actionOpenSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9PQBkCA7EeaWIYyxtp3KNQ" name="actionSaveSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
@@ -174,20 +175,24 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_V4Dt4CA9EeaWIYyxtp3KNQ" name="mainToolBar" type="_ChDzECA0Eeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_V5bm4CA9EeaWIYyxtp3KNQ" name="statusBar" type="_B3cOUCA0Eeadi61CSIyp3g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="Ui_SlideWidget">
     <ownedAttribute xmi:type="uml:Property" xmi:id="__FF7ECD6Eea9v5a29d-uGg" name="mainWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_YytIwCD7Eea9v5a29d-uGg" name="centralWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ZJa_oCD7Eea9v5a29d-uGg" name="pushSlideWidget" type="_CWQRQCA0Eeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ZsFAwCD7Eea9v5a29d-uGg" name="moveSlideWidget" type="_01nWwCAzEeadi61CSIyp3g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="TrajectoryElementEditorUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_uk97cBkJEeamFdNJHbt0ZA" name="DataViewUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_yPfFYBkJEeamFdNJHbt0ZA" name="TrajectoryViewUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_yXULsBkJEeamFdNJHbt0ZA" name="ConsoleViewUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_ycyhkBkJEeamFdNJHbt0ZA" name="PolarViewUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_6yjSoBkJEeamFdNJHbt0ZA" name="TrajectoryElementPerigyUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_6-5FgBkJEeamFdNJHbt0ZA" name="TrajectoryElementApogyUI"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_7FbyYBkJEeamFdNJHbt0ZA" name="TrajectoryElementOrbitInfoUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryElementEditor"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uk97cBkJEeamFdNJHbt0ZA" name="Ui_DataView">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O1YboCEJEea0E80DL0Xggg" name="searchBar" type="_Vxe64CA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dA9JgCEJEea0E80DL0Xggg" name="dataList" type="_WFKE0CA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dKya8CEJEea0E80DL0Xggg" name="satellitData" type="_WFKE0CA0Eeadi61CSIyp3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yPfFYBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryView"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yXULsBkJEeamFdNJHbt0ZA" name="Ui_ConsoleView"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ycyhkBkJEeamFdNJHbt0ZA" name="Ui_PolarView"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6yjSoBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryElementPerigy"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6-5FgBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryElementApogy"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_7FbyYBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryElementOrbitInfo"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_hIFCMBn-EeaGaumT9ymrPQ" memberEnd="_hIFpQhn-EeaGaumT9ymrPQ _hIGQUBn-EeaGaumT9ymrPQ" navigableOwnedEnd="_hIGQUBn-EeaGaumT9ymrPQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hIFpQBn-EeaGaumT9ymrPQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIFpQRn-EeaGaumT9ymrPQ" key="nature" value="UML_Nature"/>
@@ -267,4 +272,5 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:DataType" xmi:id="_Vxe64CA0Eeadi61CSIyp3g" name="QLineEdit"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_WFKE0CA0Eeadi61CSIyp3g" name="QListWidget"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_eXKaYCD8Eea9v5a29d-uGg" name="QRect"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_dDzeoCEIEea0E80DL0Xggg" name="QWasDennNoch"/>
 </uml:Model>
