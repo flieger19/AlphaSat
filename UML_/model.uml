@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="RootElement">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_jgyxMCD9Eea9v5a29d-uGg">
+    <body>Was machen wir mit den Konstanten die in der MainGUI sind?
+Die werden auch in den anderen Controlern gebraucht
+</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Class" xmi:id="_QZuOQBgsEean0ssv5ks9kg" name="Database"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Q4w6sBgsEean0ssv5ks9kg" name="Satellite"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_RVy08BgsEean0ssv5ks9kg" name="Settings"/>
@@ -22,6 +27,15 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uKT9kBj6EeamFdNJHbt0ZA" name="SlideWidget">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ZeaawBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_eMhGUBkJEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tyRdgCD8Eea9v5a29d-uGg" name="m_slideWidgetHide" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7-EN0CD8Eea9v5a29d-uGg" name="m_slideWidgetShow" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8aSPwCD8Eea9v5a29d-uGg" name="m_hide" visibility="private" isStatic="true">
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_MZ01oCD9Eea9v5a29d-uGg" name="hide"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8babsCD9Eea9v5a29d-uGg" name="on_pushSlideWidget_clicked" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L8m4sCD-Eea9v5a29d-uGg" name="mouseMoveEvent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L8qjECD-Eea9v5a29d-uGg" name="mouseReleaseEvent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L8sYQCD-Eea9v5a29d-uGg" name="mousePressEvent" visibility="private"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uR060Bj6EeamFdNJHbt0ZA" name="MainGUI">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_e8vBcBn9EeaGaumT9ymrPQ" name="UI" visibility="private" type="_F8EaMBkJEeamFdNJHbt0ZA"/>
@@ -252,4 +266,5 @@
   <packagedElement xmi:type="uml:DataType" xmi:id="_VpxJUCA0Eeadi61CSIyp3g" name="QWasWeisIch"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_Vxe64CA0Eeadi61CSIyp3g" name="QLineEdit"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_WFKE0CA0Eeadi61CSIyp3g" name="QListWidget"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_eXKaYCD8Eea9v5a29d-uGg" name="QRect"/>
 </uml:Model>
