@@ -110,7 +110,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9cV9MBj6EeamFdNJHbt0ZA" name="TrajectoryView">
     <generalization xmi:type="uml:Generalization" xmi:id="_M0VxUBoAEeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OL4hIBoCEeaGaumT9ymrPQ" name="Attribute1" visibility="private" type="_yPfFYBkJEeamFdNJHbt0ZA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OL4hIBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_yPfFYBkJEeamFdNJHbt0ZA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_KrAAwBkEEeamFdNJHbt0ZA" name="TrajectoryElementPerigy">
     <generalization xmi:type="uml:Generalization" xmi:id="_3W3YkBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
@@ -160,7 +160,12 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_V4Dt4CA9EeaWIYyxtp3KNQ" name="mainToolBar" type="_ChDzECA0Eeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_V5bm4CA9EeaWIYyxtp3KNQ" name="statusBar" type="_B3cOUCA0Eeadi61CSIyp3g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="SlideWidgetUI">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__FF7ECD6Eea9v5a29d-uGg" name="mainWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YytIwCD7Eea9v5a29d-uGg" name="centralWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZJa_oCD7Eea9v5a29d-uGg" name="pushSlideWidget" type="_CWQRQCA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZsFAwCD7Eea9v5a29d-uGg" name="moveSlideWidget" type="_01nWwCAzEeadi61CSIyp3g"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="TrajectoryElementEditorUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_uk97cBkJEeamFdNJHbt0ZA" name="DataViewUI"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_yPfFYBkJEeamFdNJHbt0ZA" name="TrajectoryViewUI"/>
