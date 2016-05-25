@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="AlphaSat">
   <ownedComment xmi:type="uml:Comment" xmi:id="_jgyxMCD9Eea9v5a29d-uGg">
     <body>Was machen wir mit den Konstanten die in der MainGUI sind?
 Die werden auch in den anderen Controlern gebraucht
@@ -31,6 +31,7 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_tyRdgCD8Eea9v5a29d-uGg" name="m_slideWidgetHide" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7-EN0CD8Eea9v5a29d-uGg" name="m_slideWidgetShow" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8aSPwCD8Eea9v5a29d-uGg" name="m_hide" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_MZ01oCD9Eea9v5a29d-uGg" name="hide"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_8babsCD9Eea9v5a29d-uGg" name="on_pushSlideWidget_clicked" visibility="private"/>
@@ -53,18 +54,23 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rMYA8BpnEea-oJLJtuZAWw" name="m_database" visibility="private" type="_QZuOQBgsEean0ssv5ks9kg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zkIWEBpnEea-oJLJtuZAWw" name="m_settings" visibility="private" type="_RVy08BgsEean0ssv5ks9kg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_sWQtMCAlEea6BqLVBXzumg" name="widthFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2Kx7QCAlEea6BqLVBXzumg" name="widthFullHD" value="1920.0"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_5l-20CAlEea6BqLVBXzumg" name="zoomFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_9muIYCAlEea6BqLVBXzumg" name="zoomFullHD" value="1234.0"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkgICAmEea6BqLVBXzumg" name="zoomDerivativ" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_e2gHACAmEea6BqLVBXzumg" name="zoomDerivativ" value="0.022608695652173914"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ix1UICAmEea6BqLVBXzumg" name="gainFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_mmZK4CAmEea6BqLVBXzumg" name="gainFullHD" value="5.335"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_p7VtcCAmEea6BqLVBXzumg" name="screenDerivativ" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_t2AMMCAmEea6BqLVBXzumg" name="screenDerivativ" value="0.1078125"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_e5wocB_8EeaUcJNs66L13w" name="startCalculationOfTrack" visibility="private"/>
@@ -110,15 +116,19 @@ Die werden auch in den anderen Controlern gebraucht
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_s6tI8CAjEea6BqLVBXzumg" name="linearPoint" visibility="private">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_lURtoCAkEea6BqLVBXzumg" name="m" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
         <defaultValue xmi:type="uml:LiteralReal" xmi:id="_lURtoSAkEea6BqLVBXzumg" name="m"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_rpj0sCAkEea6BqLVBXzumg" name="x" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
         <defaultValue xmi:type="uml:LiteralReal" xmi:id="_rpj0sSAkEea6BqLVBXzumg" name="x"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7CMgCAkEea6BqLVBXzumg" name="x0" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
         <defaultValue xmi:type="uml:LiteralReal" xmi:id="_u7CMgSAkEea6BqLVBXzumg" name="x0"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_81JW8CAkEea6BqLVBXzumg" name="y0" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
         <defaultValue xmi:type="uml:LiteralReal" xmi:id="_81JW8SAkEea6BqLVBXzumg" name="y0"/>
       </ownedParameter>
     </ownedOperation>
