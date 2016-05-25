@@ -139,7 +139,7 @@ Die werden auch in den anderen Controlern gebraucht
     <generalization xmi:type="uml:Generalization" xmi:id="_4U8xcBn-EeaGaumT9ymrPQ" general="_uAAyEBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_eZy6MBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_6-5FgBkJEeamFdNJHbt0ZA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="Ui_Main">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="Ui_MainGui">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_66TjcCA7EeaWIYyxtp3KNQ" name="actionAddNewSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9NUH4CA7EeaWIYyxtp3KNQ" name="actionOpenSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9PQBkCA7EeaWIYyxtp3KNQ" name="actionSaveSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
