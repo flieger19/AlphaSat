@@ -22,6 +22,7 @@ Die werden auch in den anderen Controlern gebraucht
     <generalization xmi:type="uml:Generalization" xmi:id="_wM7sABn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0wlLcBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_uk97cBkJEeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HjOf0CENEea0E80DL0Xggg" name="m_satellite" visibility="private" type="_Q4w6sBgsEean0ssv5ks9kg"/>
+    <nestedClassifier xmi:type="uml:Signal" xmi:id="_sz9gUCXMEeatKI0kj6UIxA" name="trajectory"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uAAyEBj6EeamFdNJHbt0ZA" name="TrajectoryElementEditor">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_pD4TwBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_m4jCUBkJEeamFdNJHbt0ZA"/>
@@ -34,6 +35,7 @@ Die werden auch in den anderen Controlern gebraucht
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_MZ01oCD9Eea9v5a29d-uGg" name="hide"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iETfsCXMEeatKI0kj6UIxA" name="m_constants" visibility="private" type="_jTYXYCXLEeatKI0kj6UIxA"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_8babsCD9Eea9v5a29d-uGg" name="on_pushSlideWidget_clicked" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L8m4sCD-Eea9v5a29d-uGg" name="mouseMoveEvent" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L8qjECD-Eea9v5a29d-uGg" name="mouseReleaseEvent" visibility="private"/>
@@ -53,30 +55,9 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ioR48BpnEea-oJLJtuZAWw" name="m_orbitalMechanik" visibility="private" type="_dF4MMBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rMYA8BpnEea-oJLJtuZAWw" name="m_database" visibility="private" type="_QZuOQBgsEean0ssv5ks9kg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_zkIWEBpnEea-oJLJtuZAWw" name="m_settings" visibility="private" type="_RVy08BgsEean0ssv5ks9kg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_sWQtMCAlEea6BqLVBXzumg" name="widthFullHD" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2Kx7QCAlEea6BqLVBXzumg" name="widthFullHD" value="1920.0"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5l-20CAlEea6BqLVBXzumg" name="zoomFullHD" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_9muIYCAlEea6BqLVBXzumg" name="zoomFullHD" value="1234.0"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkgICAmEea6BqLVBXzumg" name="zoomDerivativ" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_e2gHACAmEea6BqLVBXzumg" name="zoomDerivativ" value="0.022608695652173914"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ix1UICAmEea6BqLVBXzumg" name="gainFullHD" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_mmZK4CAmEea6BqLVBXzumg" name="gainFullHD" value="5.335"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_p7VtcCAmEea6BqLVBXzumg" name="screenDerivativ" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_t2AMMCAmEea6BqLVBXzumg" name="screenDerivativ" value="0.1078125"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_e5wocB_8EeaUcJNs66L13w" name="startCalculationOfTrack" visibility="private"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_xDDJEB_8EeaUcJNs66L13w" name="appendCoordinates" visibility="private"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_1wXMwB_8EeaUcJNs66L13w" name="showRecievedTrack" visibility="private"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_8rYeIB_8EeaUcJNs66L13w" name="editSatellite" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AzgNYCXMEeatKI0kj6UIxA" name="m_constants" visibility="private" type="_jTYXYCXLEeatKI0kj6UIxA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1wXMwB_8EeaUcJNs66L13w" name="showTrack" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8rYeIB_8EeaUcJNs66L13w" name="editSatelliteMode" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_EJLFYB_9EeaUcJNs66L13w" name="mouseMoveGeoPosition" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_HH78kB_9EeaUcJNs66L13w" name="zoomChanged" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_KTergB_9EeaUcJNs66L13w" name="mouseMoveEvent" visibility="private"/>
@@ -284,4 +265,26 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H3JeACXGEeanHuobwwlPQw" name="QRect"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QWasDennNoch"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="CopyOf_QWidget_1"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jTYXYCXLEeatKI0kj6UIxA" name="Constants">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wkjcCXLEeatKI0kj6UIxA" name="widthFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_8wkjcSXLEeatKI0kj6UIxA" name="widthFullHD" value="1920.0"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wo04CXLEeatKI0kj6UIxA" name="zoomFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_8wo04SXLEeatKI0kj6UIxA" name="zoomFullHD" value="1234.0"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wqqECXLEeatKI0kj6UIxA" name="zoomDerivativ" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_8wqqESXLEeatKI0kj6UIxA" name="zoomDerivativ" value="0.022608695652173914"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wtGUCXLEeatKI0kj6UIxA" name="gainFullHD" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_8wtGUSXLEeatKI0kj6UIxA" name="gainFullHD" value="5.335"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8wu7gCXLEeatKI0kj6UIxA" name="screenDerivativ" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_8wu7gSXLEeatKI0kj6UIxA" name="screenDerivativ" value="0.1078125"/>
+    </ownedAttribute>
+  </packagedElement>
 </uml:Model>
