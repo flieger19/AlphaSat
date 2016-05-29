@@ -28,8 +28,8 @@ Die werden auch in den anderen Controlern gebraucht
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uKT9kBj6EeamFdNJHbt0ZA" name="SlideWidget">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ZeaawBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_eMhGUBkJEeamFdNJHbt0ZA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tyRdgCD8Eea9v5a29d-uGg" name="m_slideWidgetHide" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_7-EN0CD8Eea9v5a29d-uGg" name="m_slideWidgetShow" visibility="private" isStatic="true" type="_eXKaYCD8Eea9v5a29d-uGg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tyRdgCD8Eea9v5a29d-uGg" name="m_slideWidgetHide" visibility="private" isStatic="true" type="_H3JeACXGEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7-EN0CD8Eea9v5a29d-uGg" name="m_slideWidgetShow" visibility="private" isStatic="true" type="_H3JeACXGEeanHuobwwlPQw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8aSPwCD8Eea9v5a29d-uGg" name="m_hide" visibility="private" isStatic="true">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_MZ01oCD9Eea9v5a29d-uGg" name="hide"/>
@@ -110,8 +110,8 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedOperation xmi:type="uml:Operation" xmi:id="_lL8_cCAhEea6BqLVBXzumg" name="on_actionSearchHelp_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_l99EICAhEea6BqLVBXzumg" name="on_actionAlphaSatHelp_triggered" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_sqqh0CAjEea6BqLVBXzumg" name="setLineStyle" visibility="private">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JtU_wCAkEea6BqLVBXzumg" name="style" visibility="private" type="_-TO7ACAjEea6BqLVBXzumg">
-        <defaultValue xmi:type="uml:Expression" xmi:id="_Fr31ICAnEea6BqLVBXzumg" name="style" visibility="private" type="_-TO7ACAjEea6BqLVBXzumg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JtU_wCAkEea6BqLVBXzumg" name="style" visibility="private" type="_A3QJICXFEeanHuobwwlPQw">
+        <defaultValue xmi:type="uml:Expression" xmi:id="_Fr31ICAnEea6BqLVBXzumg" name="style" visibility="private"/>
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_s6tI8CAjEea6BqLVBXzumg" name="linearPoint" visibility="private">
@@ -150,52 +150,52 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_eZy6MBoCEeaGaumT9ymrPQ" name="UI" visibility="private" type="_6-5FgBkJEeamFdNJHbt0ZA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_F8EaMBkJEeamFdNJHbt0ZA" name="Ui_MainGui">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_66TjcCA7EeaWIYyxtp3KNQ" name="actionAddNewSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9NUH4CA7EeaWIYyxtp3KNQ" name="actionOpenSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9PQBkCA7EeaWIYyxtp3KNQ" name="actionSaveSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9eRVACA7EeaWIYyxtp3KNQ" name="actionUsedDocuments" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9jE8gCA7EeaWIYyxtp3KNQ" name="actionImportSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9k2eICA7EeaWIYyxtp3KNQ" name="actionExportSatelitet" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9m5FgCA7EeaWIYyxtp3KNQ" name="actionUndo" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9oxU0CA7EeaWIYyxtp3KNQ" name="actionRedo" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9x0jICA7EeaWIYyxtp3KNQ" name="actionCut" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_91oFECA7EeaWIYyxtp3KNQ" name="actionCopy" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_93XxgCA7EeaWIYyxtp3KNQ" name="actionPast" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_95SdECA7EeaWIYyxtp3KNQ" name="actionSelectAll" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_969RACA7EeaWIYyxtp3KNQ" name="actionElse" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_98jMcCA7EeaWIYyxtp3KNQ" name="actionCenterMap" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9-RqwCA7EeaWIYyxtp3KNQ" name="actionZoomMap" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9_2_ICA7EeaWIYyxtp3KNQ" name="actionCompleteMap" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-BXbACA7EeaWIYyxtp3KNQ" name="actionVisibleZone" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-C7hQCA7EeaWIYyxtp3KNQ" name="actionZoomSteps" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-EavACA7EeaWIYyxtp3KNQ" name="actionProvideSatelite" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-GE74CA7EeaWIYyxtp3KNQ" name="actionDataViewer" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-IDR0CA7EeaWIYyxtp3KNQ" name="actionPolarView" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-JmJ8CA7EeaWIYyxtp3KNQ" name="actionConsole" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-LC7cCA7EeaWIYyxtp3KNQ" name="actionTrajectory" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-MdQsCA7EeaWIYyxtp3KNQ" name="actionMinimize" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-N40ECA7EeaWIYyxtp3KNQ" name="actionZoomMainView" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-PQtECA7EeaWIYyxtp3KNQ" name="actionForwardAll" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ezlT4CA8EeaWIYyxtp3KNQ" name="actionSearchHelp" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_fNiE8CA8EeaWIYyxtp3KNQ" name="actionAlphaSatHelp" type="_pDB5gCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_UwdMoCA9EeaWIYyxtp3KNQ" name="centralWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Vxw4oCA9EeaWIYyxtp3KNQ" name="marbleMap" type="_1OE6ECAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_V0T2UCA9EeaWIYyxtp3KNQ" name="coordinates" type="_01nWwCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_V1pTECA9EeaWIYyxtp3KNQ" name="menuBar" type="_0-_8QCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_V4Dt4CA9EeaWIYyxtp3KNQ" name="mainToolBar" type="_ChDzECA0Eeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_V5bm4CA9EeaWIYyxtp3KNQ" name="statusBar" type="_B3cOUCA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_66TjcCA7EeaWIYyxtp3KNQ" name="actionAddNewSatelite" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9NUH4CA7EeaWIYyxtp3KNQ" name="actionOpenSatelite" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9PQBkCA7EeaWIYyxtp3KNQ" name="actionSaveSatelite" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9eRVACA7EeaWIYyxtp3KNQ" name="actionUsedDocuments" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9jE8gCA7EeaWIYyxtp3KNQ" name="actionImportSatelite" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9k2eICA7EeaWIYyxtp3KNQ" name="actionExportSatelitet" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9m5FgCA7EeaWIYyxtp3KNQ" name="actionUndo" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9oxU0CA7EeaWIYyxtp3KNQ" name="actionRedo" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9x0jICA7EeaWIYyxtp3KNQ" name="actionCut" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_91oFECA7EeaWIYyxtp3KNQ" name="actionCopy" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_93XxgCA7EeaWIYyxtp3KNQ" name="actionPast" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_95SdECA7EeaWIYyxtp3KNQ" name="actionSelectAll" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_969RACA7EeaWIYyxtp3KNQ" name="actionElse" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_98jMcCA7EeaWIYyxtp3KNQ" name="actionCenterMap" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9-RqwCA7EeaWIYyxtp3KNQ" name="actionZoomMap" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9_2_ICA7EeaWIYyxtp3KNQ" name="actionCompleteMap" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-BXbACA7EeaWIYyxtp3KNQ" name="actionVisibleZone" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-C7hQCA7EeaWIYyxtp3KNQ" name="actionZoomSteps" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-EavACA7EeaWIYyxtp3KNQ" name="actionProvideSatelite" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-GE74CA7EeaWIYyxtp3KNQ" name="actionDataViewer" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-IDR0CA7EeaWIYyxtp3KNQ" name="actionPolarView" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-JmJ8CA7EeaWIYyxtp3KNQ" name="actionConsole" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-LC7cCA7EeaWIYyxtp3KNQ" name="actionTrajectory" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-MdQsCA7EeaWIYyxtp3KNQ" name="actionMinimize" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-N40ECA7EeaWIYyxtp3KNQ" name="actionZoomMainView" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-PQtECA7EeaWIYyxtp3KNQ" name="actionForwardAll" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ezlT4CA8EeaWIYyxtp3KNQ" name="actionSearchHelp" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fNiE8CA8EeaWIYyxtp3KNQ" name="actionAlphaSatHelp" type="_xyWxICXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UwdMoCA9EeaWIYyxtp3KNQ" name="centralWidget"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Vxw4oCA9EeaWIYyxtp3KNQ" name="marbleMap" type="_K8TGgCXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V0T2UCA9EeaWIYyxtp3KNQ" name="coordinates"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V1pTECA9EeaWIYyxtp3KNQ" name="menuBar"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V4Dt4CA9EeaWIYyxtp3KNQ" name="mainToolBar"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V5bm4CA9EeaWIYyxtp3KNQ" name="statusBar"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_eMhGUBkJEeamFdNJHbt0ZA" name="Ui_SlideWidget">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="__FF7ECD6Eea9v5a29d-uGg" name="mainWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YytIwCD7Eea9v5a29d-uGg" name="centralWidget" type="_qTPkMCAzEeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZJa_oCD7Eea9v5a29d-uGg" name="pushSlideWidget" type="_CWQRQCA0Eeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZsFAwCD7Eea9v5a29d-uGg" name="moveSlideWidget" type="_01nWwCAzEeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__FF7ECD6Eea9v5a29d-uGg" name="mainWidget" type="_0itY4CXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YytIwCD7Eea9v5a29d-uGg" name="centralWidget" type="_0itY4CXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZJa_oCD7Eea9v5a29d-uGg" name="pushSlideWidget" type="__eDFECXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZsFAwCD7Eea9v5a29d-uGg" name="moveSlideWidget" type="_5Ydm4CXFEeanHuobwwlPQw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_m4jCUBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryElementEditor"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_uk97cBkJEeamFdNJHbt0ZA" name="Ui_DataView">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_O1YboCEJEea0E80DL0Xggg" name="searchBar" type="_Vxe64CA0Eeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_dA9JgCEJEea0E80DL0Xggg" name="dataList" type="_WFKE0CA0Eeadi61CSIyp3g"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_dKya8CEJEea0E80DL0Xggg" name="satellitData" type="_WFKE0CA0Eeadi61CSIyp3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O1YboCEJEea0E80DL0Xggg" name="searchBar" type="_BOo48CXGEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dA9JgCEJEea0E80DL0Xggg" name="dataList" type="_4V7y4CXFEeanHuobwwlPQw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dKya8CEJEea0E80DL0Xggg" name="satellitData" type="_4V7y4CXFEeanHuobwwlPQw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_yPfFYBkJEeamFdNJHbt0ZA" name="Ui_TrajectoryView"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_yXULsBkJEeamFdNJHbt0ZA" name="Ui_ConsoleView"/>
@@ -267,20 +267,21 @@ Die werden auch in den anderen Controlern gebraucht
       <language>C++</language>
     </mapping>
   </packagedElement>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_9F9fYBpsEeayXOBZmCNu1Q" name="Marble::GeoDataLineString"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_Ep1ggBptEeayXOBZmCNu1Q" name="Marble::GeoDataCoordinates"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_-TO7ACAjEea6BqLVBXzumg" name="Marble::GeoDataStyle"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_pDB5gCAzEeadi61CSIyp3g" name="QAction"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_qTPkMCAzEeadi61CSIyp3g" name="QWidget"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_01nWwCAzEeadi61CSIyp3g" name="QLabel"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_0-_8QCAzEeadi61CSIyp3g" name="QMenuBar"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_1OE6ECAzEeadi61CSIyp3g" name="Marble::MarbleWidget"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_B3cOUCA0Eeadi61CSIyp3g" name="QStatusBar"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_CWQRQCA0Eeadi61CSIyp3g" name="QPushButton"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_ChDzECA0Eeadi61CSIyp3g" name="QToolBar"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_VpxJUCA0Eeadi61CSIyp3g" name="QWasWeisIch"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_Vxe64CA0Eeadi61CSIyp3g" name="QLineEdit"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_WFKE0CA0Eeadi61CSIyp3g" name="QListWidget"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_eXKaYCD8Eea9v5a29d-uGg" name="QRect"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_dDzeoCEIEea0E80DL0Xggg" name="QWasDennNoch"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YAVaACXEEeanHuobwwlPQw" name="Marble::GeoDataLineString"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_A3O7ACXFEeanHuobwwlPQw" name="Marble::GeoDataCoordinates"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_A3QJICXFEeanHuobwwlPQw" name="Marble::GeoDataStyle"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_K8TGgCXFEeanHuobwwlPQw" name="Marble::MarbleWidget"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_xyWxICXFEeanHuobwwlPQw" name="QAction"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_0itY4CXFEeanHuobwwlPQw" name="QWidget"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4V7y4CXFEeanHuobwwlPQw" name="QListWidget"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_5Ydm4CXFEeanHuobwwlPQw" name="QLabel"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_6hsf0CXFEeanHuobwwlPQw" name="QMenuBar"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_7wRy0CXFEeanHuobwwlPQw" name="QStatusBar"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8fwvACXFEeanHuobwwlPQw" name="QToolBar"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__eDFECXFEeanHuobwwlPQw" name="QPushButton"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_BOo48CXGEeanHuobwwlPQw" name="QLineEdit"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CgI9ECXGEeanHuobwwlPQw" name="QWasWeisIch"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H3JeACXGEeanHuobwwlPQw" name="QRect"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QWasDennNoch"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="CopyOf_QWidget_1"/>
 </uml:Model>
