@@ -12,6 +12,7 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zJRJECfbEeaPl_VHBg3fRQ" name="Satellite">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_DFR50CfcEeaPl_VHBg3fRQ" type="_Q4w6sBgsEean0ssv5ks9kg" direction="return"/>
     </ownedOperation>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_MGV6kCfwEeaIEIOlE7QXog" name="PrimitiveType1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Q4w6sBgsEean0ssv5ks9kg" name="Satellite">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_DCK2sCd0EeaqPONMes2VVw" name="number" visibility="private">
@@ -79,6 +80,7 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedOperation xmi:type="uml:Operation" xmi:id="__qeYICfhEeaPl_VHBg3fRQ" name="setMA"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_AweW4CfiEeaPl_VHBg3fRQ" name="setMM"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_CrFCYCfiEeaPl_VHBg3fRQ" name="setRNE"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7KWFwCfqEeaIEIOlE7QXog" name="Operation1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_RVy08BgsEean0ssv5ks9kg" name="Settings">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RTCbACfGEeaSE5YMVeSoCw" name="ID">
@@ -368,10 +370,9 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CgI9ECXGEeanHuobwwlPQw" name="QWasWeisIch"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H3JeACXGEeanHuobwwlPQw" name="QRect"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QWasDennNoch"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="CopyOf_QWidget_1"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="QString"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_C2utACfHEeaSE5YMVeSoCw" name="SatList">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_H14uoCfHEeaSE5YMVeSoCw" name="name">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H14uoCfHEeaSE5YMVeSoCw" name="name" type="_enaw0CXGEeanHuobwwlPQw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PtMCECfHEeaSE5YMVeSoCw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PtPFYCfHEeaSE5YMVeSoCw" value="*"/>
     </ownedAttribute>
@@ -385,7 +386,7 @@ Die werden auch in den anderen Controlern gebraucht
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cza4gCfHEeaSE5YMVeSoCw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_czd70CfHEeaSE5YMVeSoCw" value="*"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sg-oQCfbEeaPl_VHBg3fRQ" name="ID">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sg-oQCfbEeaPl_VHBg3fRQ" name="*ID">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_FWmBsCfHEeaSE5YMVeSoCw" name="setSatList"/>
