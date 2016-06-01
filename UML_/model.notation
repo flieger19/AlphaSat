@@ -220,6 +220,10 @@
         <element xmi:type="uml:Signal" href="model.uml#_sz9gUCXMEeatKI0kj6UIxA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_s1OroSXMEeatKI0kj6UIxA"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_6xQykCXVEeatKI0kj6UIxA" type="3050">
+        <element xmi:type="uml:Signal" href="model.uml#_6v-ZICXVEeatKI0kj6UIxA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6xQykSXVEeatKI0kj6UIxA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_t6pw_xj6EeamFdNJHbt0ZA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_t6pxABj6EeamFdNJHbt0ZA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_t6pxARj6EeamFdNJHbt0ZA"/>

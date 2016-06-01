@@ -23,6 +23,7 @@ Die werden auch in den anderen Controlern gebraucht
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0wlLcBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_uk97cBkJEeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HjOf0CENEea0E80DL0Xggg" name="m_satellite" visibility="private" type="_Q4w6sBgsEean0ssv5ks9kg"/>
     <nestedClassifier xmi:type="uml:Signal" xmi:id="_sz9gUCXMEeatKI0kj6UIxA" name="trajectory"/>
+    <nestedClassifier xmi:type="uml:Signal" xmi:id="_6v-ZICXVEeatKI0kj6UIxA" name="editSatellit"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_uAAyEBj6EeamFdNJHbt0ZA" name="TrajectoryElementEditor">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_pD4TwBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_m4jCUBkJEeamFdNJHbt0ZA"/>
