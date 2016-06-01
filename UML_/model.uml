@@ -1,13 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="AlphaSat">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-0bykBgrEeaxRL7oBSCMLg" name="AlphaSat" visibility="package">
   <ownedComment xmi:type="uml:Comment" xmi:id="_jgyxMCD9Eea9v5a29d-uGg">
     <body>Was machen wir mit den Konstanten die in der MainGUI sind?
 Die werden auch in den anderen Controlern gebraucht
 </body>
   </ownedComment>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QZuOQBgsEean0ssv5ks9kg" name="Database"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Q4w6sBgsEean0ssv5ks9kg" name="Satellite"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RVy08BgsEean0ssv5ks9kg" name="Settings"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QZuOQBgsEean0ssv5ks9kg" name="Database">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_McgJ4CfGEeaSE5YMVeSoCw" name="Attribute1"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EvMVYCfFEeaBgsjWOK3-Iw" name="satList"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pi3PgCfbEeaPl_VHBg3fRQ" name="Setting"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zJRJECfbEeaPl_VHBg3fRQ" name="Satellite">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DFR50CfcEeaPl_VHBg3fRQ" type="_Q4w6sBgsEean0ssv5ks9kg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Q4w6sBgsEean0ssv5ks9kg" name="Satellite">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DCK2sCd0EeaqPONMes2VVw" name="number" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wQbnoCfDEeaBgsjWOK3-Iw" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WheIACd0EeaqPONMes2VVw" name="ESN" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_m8E5QCd0EeaqPONMes2VVw" name="classify" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EChar"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tYGhgCd0EeaqPONMes2VVw" name="epoch_y" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zPH_QCd0EeaqPONMes2VVw" name="epoch" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9tuFECd0EeaqPONMes2VVw" name="d_dt_MM" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E83zYCd1EeaqPONMes2VVw" name="d_dt2_MM" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Nz8hwCd1EeaqPONMes2VVw" name="drag" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dBMIACd1EeaqPONMes2VVw" name="incli" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ilNKMCd1EeaqPONMes2VVw" name="RAN" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oL8JMCd1EeaqPONMes2VVw" name="ecctr" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0FHWoCd1EeaqPONMes2VVw" name="MA" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2a3tECd1EeaqPONMes2VVw" name="MM" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6Aeh0Cd1EeaqPONMes2VVw" name="RNE" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7f3UgCfDEeaBgsjWOK3-Iw" name="pushSatellite">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mpWjMCfEEeaBgsjWOK3-Iw" name="success" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pIIzoCfhEeaPl_VHBg3fRQ" name="setNumber"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qomg0CfhEeaPl_VHBg3fRQ" name="setName"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sPT_8CfhEeaPl_VHBg3fRQ" name="setESN"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_t5-K8CfhEeaPl_VHBg3fRQ" name="setClassify"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_v9ErICfhEeaPl_VHBg3fRQ" name="setEpoch_y"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yRN4ACfhEeaPl_VHBg3fRQ" name="setEpoch"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0luRQCfhEeaPl_VHBg3fRQ" name="set_d_dt_MM"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3m6KUCfhEeaPl_VHBg3fRQ" name="set_d_dt2_MM"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5jgZ4CfhEeaPl_VHBg3fRQ" name="setDrag"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6-iNcCfhEeaPl_VHBg3fRQ" name="setIncli"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8TSZ4CfhEeaPl_VHBg3fRQ" name="setRAN"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9dnfACfhEeaPl_VHBg3fRQ" name="setEcctr"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__qeYICfhEeaPl_VHBg3fRQ" name="setMA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AweW4CfiEeaPl_VHBg3fRQ" name="setMM"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CrFCYCfiEeaPl_VHBg3fRQ" name="setRNE"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RVy08BgsEean0ssv5ks9kg" name="Settings">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RTCbACfGEeaSE5YMVeSoCw" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dvnD4CfbEeaPl_VHBg3fRQ" name="date">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1UFLgCdyEeaGmPOluSNxZw" name="pushSetting">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aCXEICfdEeaPl_VHBg3fRQ" name="success" direction="return" isException="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_dF4MMBj6EeamFdNJHbt0ZA" name="OrbitalMechanics"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hipScBj6EeamFdNJHbt0ZA" name="CoordinateTransformation"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_touTcBj6EeamFdNJHbt0ZA" name="ConsoleView">
@@ -284,4 +369,36 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H3JeACXGEeanHuobwwlPQw" name="QRect"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QWasDennNoch"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="CopyOf_QWidget_1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C2utACfHEeaSE5YMVeSoCw" name="SatList">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H14uoCfHEeaSE5YMVeSoCw" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PtMCECfHEeaSE5YMVeSoCw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PtPFYCfHEeaSE5YMVeSoCw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RX_XACfHEeaSE5YMVeSoCw" name="number">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdKYMCfHEeaSE5YMVeSoCw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdM0cCfHEeaSE5YMVeSoCw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YXoCoCfHEeaSE5YMVeSoCw" name="ESN">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cza4gCfHEeaSE5YMVeSoCw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_czd70CfHEeaSE5YMVeSoCw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sg-oQCfbEeaPl_VHBg3fRQ" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FWmBsCfHEeaSE5YMVeSoCw" name="setSatList"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yyVKYCfIEeaSE5YMVeSoCw" name="subSet" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BLH04CfJEeaSE5YMVeSoCw" name="name" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FQegsCfJEeaSE5YMVeSoCw" name="number" isOrdered="true" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_I8358CfJEeaSE5YMVeSoCw" name="RNE" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
 </uml:Model>
