@@ -109,6 +109,14 @@ Die werden auch in den anderen Controlern gebraucht
     <generalization xmi:type="uml:Generalization" xmi:id="_wM7sABn_EeaGaumT9ymrPQ" general="_uKT9kBj6EeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0wlLcBoBEeaGaumT9ymrPQ" name="UI" visibility="private" type="_uk97cBkJEeamFdNJHbt0ZA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HjOf0CENEea0E80DL0Xggg" name="m_satellite" visibility="private" type="_Q4w6sBgsEean0ssv5ks9kg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eDXH4Cg_Eeaq8OQ8iA-VSQ" name="constants" visibility="private" type="_jTYXYCXLEeatKI0kj6UIxA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fwLEcCg-Eeaq8OQ8iA-VSQ" name="on_dataList_currentItemChanged">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sugjICg-Eeaq8OQ8iA-VSQ" name="*current" type="_H-gDMCXGEeanHuobwwlPQw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yYnmQCg-Eeaq8OQ8iA-VSQ" name="*previous" type="_H-gDMCXGEeanHuobwwlPQw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MGBYkCg_Eeaq8OQ8iA-VSQ" name="on_searchBar_textChanged">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XYPTsCg_Eeaq8OQ8iA-VSQ" name="&amp;arg1" type="_enaw0CXGEeanHuobwwlPQw"/>
+    </ownedOperation>
     <nestedClassifier xmi:type="uml:Signal" xmi:id="_sz9gUCXMEeatKI0kj6UIxA" name="trajectory"/>
     <nestedClassifier xmi:type="uml:Signal" xmi:id="_6v-ZICXVEeatKI0kj6UIxA" name="editSatellit"/>
   </packagedElement>
@@ -123,7 +131,7 @@ Die werden auch in den anderen Controlern gebraucht
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_MZ01oCD9Eea9v5a29d-uGg" name="hide"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_iETfsCXMEeatKI0kj6UIxA" name="m_constants" visibility="private" type="_jTYXYCXLEeatKI0kj6UIxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iETfsCXMEeatKI0kj6UIxA" name="constants" visibility="private" type="_jTYXYCXLEeatKI0kj6UIxA"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_8babsCD9Eea9v5a29d-uGg" name="on_pushSlideWidget_clicked" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L8m4sCD-Eea9v5a29d-uGg" name="mouseMoveEvent" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L8qjECD-Eea9v5a29d-uGg" name="mouseReleaseEvent" visibility="private"/>
@@ -147,21 +155,8 @@ Die werden auch in den anderen Controlern gebraucht
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2Kx7QCAlEea6BqLVBXzumg" name="widthFullHD" value="1920.0"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5l-20CAlEea6BqLVBXzumg" name="zoomFullHD" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5l-20CAlEea6BqLVBXzumg" name="constants" visibility="private" isStatic="true" type="_jTYXYCXLEeatKI0kj6UIxA">
       <defaultValue xmi:type="uml:LiteralReal" xmi:id="_9muIYCAlEea6BqLVBXzumg" name="zoomFullHD" value="1234.0"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkgICAmEea6BqLVBXzumg" name="zoomDerivativ" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_e2gHACAmEea6BqLVBXzumg" name="zoomDerivativ" value="0.022608695652173914"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ix1UICAmEea6BqLVBXzumg" name="gainFullHD" visibility="private" isStatic="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_mmZK4CAmEea6BqLVBXzumg" name="gainFullHD" value="5.335"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_p7VtcCAmEea6BqLVBXzumg" name="screenDerivativ" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_t2AMMCAmEea6BqLVBXzumg" name="screenDerivativ" value="0.1078125"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_e5wocB_8EeaUcJNs66L13w" name="startCalculationOfTrack" visibility="private"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_xDDJEB_8EeaUcJNs66L13w" name="appendCoordinates" visibility="private"/>
@@ -370,10 +365,10 @@ Die werden auch in den anderen Controlern gebraucht
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8fwvACXFEeanHuobwwlPQw" name="QToolBar"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__eDFECXFEeanHuobwwlPQw" name="QPushButton"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_BOo48CXGEeanHuobwwlPQw" name="QLineEdit"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CgI9ECXGEeanHuobwwlPQw" name="QWasWeisIch"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CgI9ECXGEeanHuobwwlPQw" name="QTreeWidget"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H3JeACXGEeanHuobwwlPQw" name="QRect"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QWasDennNoch"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="QString"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_H-gDMCXGEeanHuobwwlPQw" name="QTreeWidgetItem"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="const QString"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_C2utACfHEeaSE5YMVeSoCw" name="SatList">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_H14uoCfHEeaSE5YMVeSoCw" name="name" type="_enaw0CXGEeanHuobwwlPQw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PtMCECfHEeaSE5YMVeSoCw" value="1"/>
@@ -405,7 +400,7 @@ Die werden auch in den anderen Controlern gebraucht
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="CopyOf_QWidget_1"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_enaw0CXGEeanHuobwwlPQw" name="QTableWidget"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_jTYXYCXLEeatKI0kj6UIxA" name="Constants">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8wkjcCXLEeatKI0kj6UIxA" name="widthFullHD" visibility="private" isStatic="true">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
